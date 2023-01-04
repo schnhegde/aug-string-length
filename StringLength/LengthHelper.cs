@@ -4,11 +4,7 @@
     {
         public static int findLength(string inputString)
         {
-            if (inputString != null)
-            {
-                return inputString.Length;
-            }
-            return 0;
+            return inputString.Length;
         }
 
         public static void Main()

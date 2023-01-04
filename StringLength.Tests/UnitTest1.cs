@@ -25,7 +25,7 @@ namespace StringLength.Tests
         [Fact]
         public void TestNullString()
         {
-            Assert.Equal(0, LengthHelper.findLength(null));
+            Assert.Throws<NullReferenceException>(() => LengthHelper.findLength(null));
         }
     }
 }
